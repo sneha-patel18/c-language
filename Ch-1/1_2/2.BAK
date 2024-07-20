@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+   int x,y,ans;
+   clrscr();
+
+   printf("(x+y)2 \t:");
+   printf("enter  any  value of x \t");
+   scanf("%d",& x);
+   printf("enter any value of y  \t");
+   scanf("%d",& y);
+   ans =(x*x)+(2*x*y)+(y*y);
+
+
+   getch();
+}

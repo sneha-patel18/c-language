@@ -6,17 +6,17 @@ main()
   int a;
   char b;
   clrscr();
-  printf("enter the value");
+  printf("please enter the marks");
   scanf("%d",&a);
   b= (a>=90&&a<=100)
      ? 'a'
-     :(a>=91&&a<=80)
+     :(a>=80&&a<=91)
 	? 'b'
-	: (a>=81&&a<=60)
+	: (a>=60&&a<=81)
 	  ? 'c'
-	  : (a>=61&&a<=50)
+	  : (a>=50&&a<=61)
 	    ?'d'
-	    : (a>=51&&a<=35)
+	    : (a>=35&&a<=51)
 	      ?'e'
 	      :'f';
    switch(b)

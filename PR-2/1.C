@@ -5,7 +5,7 @@ main()
 {
   int a;
   clrscr();
-  printf("enter the value");
+  printf("please enter the marks");
   scanf("%d",&a);
   (a>90&&a<=100)
      ?printf("your grade is A")

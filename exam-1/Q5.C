@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+ int a,sum;
+ clrscr();
+
+ printf("enter the number");
+ scanf("%d",&a);
+
+ while(a<=sum)
+ {
+   printf("");
+ }
+
+ getch();
+}
